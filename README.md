@@ -5,5 +5,6 @@ main.py
 
 ### 代码实现
 newsspider.py<br>
-爬取结果保存为json，以及保存评论的url
+
+爬取结果保存为json格式，以及保存评论的url
 
