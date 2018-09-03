@@ -20,5 +20,12 @@ class CrawlItem(Item):
     # name = scrapy.Field()
     pass
 
+class NeteaseItem(NewsItem):
+    boardId = Field()
+
 class SinaItem(NewsItem):
     channelId = Field()
+
+class TencentItem(NewsItem):
+    pass
+
